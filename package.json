@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/index.js"
+    "start": "node server/index.js",
+    "dev": "supervisor server/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,11 @@
   },
   "homepage": "https://github.com/LienJack/douban#readme",
   "dependencies": {
-    "koa": "^2.6.1"
+    "koa": "^2.6.1",
+    "koa-views": "^6.1.4",
+    "mongoose": "^5.3.9",
+    "pug": "^2.0.3",
+    "puppeteer": "^1.10.0",
+    "supervisor": "^0.12.0"
   }
 }
